@@ -14,7 +14,7 @@ Utilizando las ecuaciones desarolladas anteriormente en el enunciado, se obtiene
 
 Se realizan modificaciones en el código a los valores:
   1. lam
-  2. nu
-  3. P (esto puede ser un valor elegido, ya que lo importante es tener solicitudes el 90% del tiempo)
+  2. nu (v)/60
+  3. P =1
   4. Frecuencia. Corresponde al tiempo con P o más solicitudes en sistema, lo cual equivale al 90% del tiempo. [0.90*len(t)]
   5. COndición para cumplir la especificación. La igualdad se cambia a fraccion>=0.10, que sería el 10% de tiempo mínimo que se debe estar atendiendo solicitudes. 
