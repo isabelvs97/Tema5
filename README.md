@@ -3,13 +3,13 @@
 
 
 De los datos del problema,se tiene que:
-<img src="https://render.githubusercontent.com/render/math?math=\lambda = 2">. Para tener una fila de al menos un cliente el 90% del tiempo se necesita:
+<img src0="https://render.githubusercontent.com/render/math?math=\lambda = 2">. Para tener una fila de al menos un cliente el 90% del tiempo se necesita:
 
 Utilizando las ecuaciones desarolladas anteriormente en el enunciado, se obtiene \nu:
 
 <img src="https://render.githubusercontent.com/render/math?math=P( \text{1 o más clientes en el sistema} ) = \sum_{i=1}^{\infty} (1 - \rho) \rho^i  = 1 - \sum_{i=0}^{0} (1 - \rho) \rho^i = 1-\rho">
 
-<img src="https://render.githubusercontent.com/render/math?math=P( \text{1 o más clientes en el sistema} ) =1- \rho & = \left( \frac{\lambda}{\nu} \right)^1 \leq 0.1 \\
+<img src2="https://render.githubusercontent.com/render/math?math=P( \text{1 o más clientes en el sistema} ) =1- \rho & = \left( \frac{\lambda}{\nu} \right)^1 \leq 0.1 \\
 \nu^1 & \geq \frac{\lambda^1}{0.1} = \frac{2}{0.1} = 20 \quad \Rightarrow \quad \nu \geq 20">
 
 Se realizan modificaciones en el código a los valores:
