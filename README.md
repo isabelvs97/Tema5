@@ -17,4 +17,4 @@ Se realizan modificaciones en el código a los valores:
   1. lam
   2. nu (v)/60
   3. P =1
-  4. Condición para cumplir la especificación. La igualdad se cambia a fraccion>=0.10, que sería el 10% de tiempo mínimo que se debe estar atendiendo solicitudes. 
+  4. Condición para cumplir la especificación. La igualdad se cambia a fraccion>=0.90, que sería el 90% de tiempo mínimo que se debe estar atendiendo solicitudes. 
